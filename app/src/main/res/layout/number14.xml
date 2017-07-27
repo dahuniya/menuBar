@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f2f2f2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="120dp"
+            android:layout_height="90dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="255dp"
+            android:layout_height="90dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:text="지번, 도로명 또는 건물명으로 검색"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/plus_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/select_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="주소 선택"
+        android:layout_marginTop="95dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#2a5776"
+        android:text="남구 대연동 1806-1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:text="[도로명] 용소로 45"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/place_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#2a5776"
+        android:text="남구 대연동 73-15"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:text="[도로명] 수영로 305"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="최근 주소"
+        android:layout_marginTop="230dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/place_icon"/>
+
+</RelativeLayout>
